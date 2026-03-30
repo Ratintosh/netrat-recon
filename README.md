@@ -1,19 +1,45 @@
-# README
+# netrat-recon
 
-## About
+**netrat-recon** is a work-in-progress reconnaissance frontend tool for KOTHs and CTFs.
 
-This is the official Wails Vue template.
+It aims to provide a simple desktop UI for organizing and visualizing recon tasks, built with Wails.
 
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+---
+## Current Status
 
-## Live Development
+This project is **not yet functional**, and is still under active development.
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
+---
 
-## Building
+## Getting Started
 
-To build a redistributable, production mode package, use `wails build`.
+### Prerequisites
+
+Make sure you have the following installed:
+
+- Go (latest recommended)  
+- Node.js (LTS recommended)  
+- Wails CLI  
+
+Install Wails:
+```bash
+go install github.com/wailsapp/wails/v2/cmd/wails@latest
+```
+
+Clone the repo:
+```bash
+git clone https://github.com/Ratintosh/netrat-recon.git
+cd netrat-recon
+```
+
+Install Dependencies:
+```bash
+cd frontend
+npm install
+cd ..
+```
+
+Run in Development Mode:
+```bash
+wails dev run
+```
