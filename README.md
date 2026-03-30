@@ -1,6 +1,8 @@
-# netrat-recon
+<img width="1280" height="200" alt="netrat-recon-banner" src="https://github.com/user-attachments/assets/b29d5623-3214-44e3-ac97-1c9917d09f6d" />
 
-**netrat-recon** is a work-in-progress reconnaissance frontend tool for KOTHs and CTFs.
+# NetRat Recon
+
+**NetRat Recon** is a work-in-progress reconnaissance frontend tool for KOTHs and CTFs.
 
 It aims to provide a simple desktop UI for organizing and visualizing recon tasks, built with Wails.
 
